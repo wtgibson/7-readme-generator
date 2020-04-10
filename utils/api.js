@@ -1,17 +1,16 @@
-// bode.js modules
+// node.js modules
 
 const axios = require("axios");
 
-// Github API request with username
+// Github API request with username & authorization
 
 const api = {
     getUser(username) {
         try{
-            const header = { headers: { Authorization: `token INSERTTOKENHERE` } };
             queryURL = `https://api.github.com/users/${username}`;
-            return axios.get(queryURL, header);
+            return axios.get(queryURL);
         } catch (err) {
-            console,log(err);
+            console.log(err);
         }
     },
 };

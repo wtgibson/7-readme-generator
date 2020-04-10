@@ -1,16 +1,23 @@
+// Generates README from string literal with data from inquirer
+
 function generateMarkdown(data) {
   return `
-# ${data.title} ${data.description}
+# ${data.title} 
+
+## Summary
+
+${data.description}
 
 ## Table of Contents
 
-- [Installation] (#installation)
-- [Usage] (#usage)
-- [License] (#license)
-- [Contributing] (#contributing)
-- [Tests] (#tests)
-- [Questions] (#questions)
-- [Github] (#github)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Github](#github)
 
 ## Installation
 
@@ -19,6 +26,10 @@ ${data.install}
 ## Usage
 
 ${data.usage}
+
+## Credits
+
+${data.credits}
 
 ## License
 
