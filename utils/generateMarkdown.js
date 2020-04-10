@@ -21,7 +21,7 @@ ${data.description}
 
 ## Installation
 
-${data.install}
+${data.installation}
 
 ## Usage
 
@@ -43,13 +43,15 @@ ${data.contributing}
 
 ${data.tests}
 
+## GitHub Activity
+
+![Site](https://img.shields.io/github/commit-activity/w/${data.github}/${data.title})
+
 ## Questions
 
 <img src="${data.image}" alt="user profile picture" width="100" />
 
 Contact Me: ${data.email}
-
-![coverage](${data.badge})
 
 `;
 }

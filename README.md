@@ -18,7 +18,13 @@ An application to generate README markdown files for projects from user's input 
 
 ## Installation
 
-undefined
+```
+1. npm install
+2. npm install fs
+3. npm install utils
+4. npm install inquirer
+5. node index.js
+```
 
 ## Usage
 
@@ -38,13 +44,13 @@ Feel free to reach out to me below!
 
 ## Tests
 
-n/a
+
+
+![Site](https://img.shields.io/github/commit-activity/w/wtgibson/9-readme-generator)
 
 ## Questions
 
 <img src="https://avatars0.githubusercontent.com/u/61765020?v=4" alt="user profile picture" width="100" />
 
-Contact Me: null
-
-![coverage](undefined)
+[Email Me!](will.gibson7@gmail.com)
 

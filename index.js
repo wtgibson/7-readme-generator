@@ -22,7 +22,7 @@ function askUser() {
             
         },
         {
-            message: "What is the title of the project?",
+            message: "What is the title of the project? (Must match Github repo if applicable)",
             name: "title"
             
         },
